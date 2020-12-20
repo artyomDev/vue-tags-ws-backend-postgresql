@@ -20,3 +20,5 @@ typings/
 .env.test
 
 dist
+
+.env

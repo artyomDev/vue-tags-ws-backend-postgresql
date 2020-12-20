@@ -8,7 +8,7 @@ const bodyParser = require("body-parser");
 const cors = require('cors')
 require('dotenv').config();
 
-const port = process.env.SERVER_PORT || 8080;
+const port = process.env.PORT || 8080;
 
 app.use(cors())
 // parse requests of content-type: application/json
